@@ -1,0 +1,12 @@
+Montserrat-RegularMontserrat-RegularMontserrat-Regular,'Verdana','Verdana','Verdana'src:url(../fonts/quicksand/Quicksand-Regular.ttf);src:url(../fonts/quicksand/Quicksand-Regular.ttf);src:url(../fonts/quicksand/Quicksand-Regular.ttf);src:url(../fonts/quicksand/Quicksand-Regular.ttf);src:url(../fonts/quicksand/Quicksand-Regular.ttf);@font-face {
+	font-family:quicksand;
+	src:url(../fonts/quicksand/Quicksand-Regular.ttf);
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+	font-family:quicksand_b;
+	src:url(../fonts/quicksand/Quicksand-Bold.ttf);
+	font-style: normal; 
+    font-weight: normal; 
+}

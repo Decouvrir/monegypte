@@ -1,0 +1,684 @@
+
+/* Portrait tablet to landscape and desktop */
+@media only screen and (max-width: 891px) {  
+   body main .chiffreinfo{
+
+		display: block;
+		margin: 20px 0;
+		vertical-align: top;
+	}
+}
+
+
+
+@media only screen and (max-width: 830px) {
+	body main .image{
+		display: block;
+		max-width: 100%;
+	}
+	body .logo{
+		display: block;
+		text-align: center;
+	}
+	body .all{
+		display: block;
+	}
+
+	body #haut{
+		max-width: 100%;
+
+	}
+
+	body nav ul{
+
+		margin: 10px 0px;
+		padding: 0px;
+
+	}
+
+	body .tout{
+		display: block;
+
+	}
+	body .left{
+		width: 100%;
+
+	}
+	body .right{
+		width: 100%;
+	}
+
+	body main .chiffreinfo{
+
+		display: block;
+		margin: 20px 0;
+		vertical-align: top;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	body main .image{
+		display: block;
+		max-width: 100%;
+	}
+	body .logo{
+		display: block;
+		text-align: center;
+	}
+	body .all{
+		display: block;
+	}
+
+	body #haut{
+		max-width: 100%;
+
+	}
+
+	body nav ul{
+
+		margin: 10px 0px;
+		padding: 0px;
+
+	}
+
+	body .tout{
+		display: block;
+
+	}
+	body .left{
+		width: 100%;
+
+	}
+	body .right{
+		width: 100%;
+	}
+
+	body main .chiffreinfo{
+
+		display: block;
+		margin: 20px 0;
+		vertical-align: top;
+	}
+}
+
+/* Landscape phones and down */
+@media only screen and (max-width: 480px) { 
+	body main .image{
+		display: block;
+		max-width: 100%;
+	}
+	body .logo{
+		display: block;
+		text-align: center;
+	}
+	body .all{
+		display: block;
+	}
+
+	body #haut{
+		text-align: center;
+		margin: 0;
+	}
+
+	body nav ul{
+		margin: 10px 0px;
+		padding: 0px;
+
+	}
+	body .tout{
+		display:block;
+
+	}
+	body .left{
+		width: 100%;
+
+	}
+	body .right{
+		width: 100%;
+
+	}
+
+	body main .chiffreinfo{
+
+		display: block;
+		margin: 20px 0;
+		vertical-align: top;
+	}
+}
+
+
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:#e6d5b8;
+}
+
+#wrap{
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto; 
+}
+#wrap a{
+	text-decoration: none;
+}
+.all{
+	text-align: left;
+	
+}
+body .tout{
+	display: inline-block;
+
+}
+.left{
+	width: 49%;
+	text-align: left;
+}
+.right{
+	width: 49%;
+	text-align: right;
+}
+
+
+#haut{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+	padding:0px;
+	margin-left:22%;
+}
+nav ul{
+	
+	list-style:none;
+
+	margin: 0;
+	padding: 0;
+}
+
+header 	ul li{
+	font-family: 'Montserrat','Verdana';
+	font-size: 1.1em;
+	
+	display: inline-block;
+
+	margin: 0px 5px;
+	padding: 0px;
+
+}
+header 	ul li a{
+	color: #4a3933;
+	
+}
+
+header 	ul li a:hover{
+	color: #da723c;
+	
+
+
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+	
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+	margin: 10px 0px;
+	
+}
+
+.logo h1{
+	font-family: 'Montserrat-Bold','Verdana';
+	font-size: 1.7em;
+	color: #da723c;
+	margin: 0px 0px
+	0px 5px;
+
+}
+.backimage img{
+	width: 100%; 
+	height: auto; 
+	vertical-align: bottom;
+}
+
+main #info{
+	background-color: #da723c;
+	padding: 30px 20px;
+	text-align: center;
+
+}
+main .vertical{
+	display: block;
+	text-align: center;
+	margin-bottom: 0.4%;
+}
+
+main .image{
+	max-width: 40%;
+	width: 98%;
+	vertical-align: top;
+	padding: 7px;
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	display: inline-block;	
+	margin: 5px 5px 5px 5px;
+	text-align: justify;
+
+}
+main .video{
+	max-width: 40%;
+	width: 98%;
+	height:auto;
+	vertical-align: top;
+	padding: 7px;
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	display: inline-block;	
+	margin: 5px 5px 5px 5px;
+	text-align: justify;
+
+}
+main .site{
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+	-23px 0 20px -23px rgba(0, 0, 0, .6),
+	23px 0 20px -23px rgba(0, 0, 0, .6),
+	inset 0 0 40px rgba(0, 0, 0, .1);
+	text-align: left;
+	font-size: 0.9em;
+}
+
+main .lire{
+	font-size: 0.9em;
+	font-style: oblique;
+	font-weight: bold;
+
+}
+main .lire:hover{
+	color: red;
+}
+main .lire a {color:#4a3933;
+	font-size: 18px;
+	font-style: oblique;
+	font-weight: bold;
+
+}
+main .lire a:hover{
+	color: #e6d5b8;
+}
+main .cuisine{
+	max-width: 45%;
+	margin: 0.4% 0.4% 0.4% 0.4%;
+}
+main .cuisine_text{
+	margin: 0px 10px 20px 10px	;
+}
+
+
+main .apropos{
+	max-width: 80%;
+
+	
+}
+main .frame{
+	max-width: 560px;
+	margin: 0px 1% 5% 1%;
+	
+}
+
+
+section img{
+	width: 100%; 
+	height: auto; 
+}
+.galerie{
+	margin-top: 1%;
+}
+
+
+main section h3 {
+	font-family: 'Montserrat-Bold','Verdana';
+	text-align: center;
+
+	color: #4a3933;
+}
+main section p {
+	font-family: 'Montserrat','Verdana';
+	margin: 0px 10px 10px 10px	;
+    font-size: 14px;
+
+	color: #000;
+}
+.text{
+	display: inline-block;
+
+}
+main .chiffre{
+	background-color: transparent;
+	padding: 20px;
+	text-align: center;
+
+} 
+
+main .chiffre h3{
+	font-family: 'Montserrat-Bold','Verdana';
+	color: #3f3119;
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+}
+
+main .chiffreinfo{
+
+	display: inline-block;
+	margin: 0px 30px;
+	vertical-align: top;
+}
+
+main .chiffreinfo img{
+	margin: 0px;
+	height: 70px;
+	width: 70px;
+
+
+}
+
+main .chiffreinfo p{
+	font-family: 'Montserrat','Verdana';
+	color: #3f3119;
+	font-size: 1em; 
+	margin: 0px;
+}
+
+main ul {
+
+	padding: 0px 0px 0px 5%;
+}
+
+
+
+
+main ul li{
+	font-family: 'Montserrat','Verdana';
+	font-size: 0.9em;
+	margin: 3% 2%;
+	display: block;
+	vertical-align: top;
+
+
+}
+
+main ul .sub{
+	font-family: 'Montserrat','Verdana';
+	font-size: 0.9em;
+	margin: 3% 2%;
+	display: block;
+
+	
+}
+
+main ul li a {
+	color: #4a3933;
+}
+
+main ul li a:hover {
+	color: red;
+}
+
+.son{
+width: 100%;
+text-align: center;
+}
+
+main audio{
+	width: 100%;
+}
+
+table tr{
+
+}
+
+
+table tr td{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+
+}
+
+main table{
+	padding: 0 0 5% 0;
+}
+
+table img{
+	border-radius: 5px;
+	
+}
+
+
+
+
+
+footer{
+	background-color: #4a3933;
+	padding: 30px;
+	text-align: center;	
+
+}
+footer .bas{
+	display: inline-block;
+	margin: 20px 70px;
+	font-family: 'Montserrat','Verdana';
+	color: white;
+	font-size: 0.8em;
+	vertical-align: top;	
+	
+
+}
+
+footer p  {
+	margin: 0px 0px 5px 0px;
+
+}
+
+
+footer .bas ul{
+	padding: 0px;
+	margin: 0px;
+	list-style:none;
+
+}
+footer .bas ul li{
+	margin-bottom: 5px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #281f0f;
+	text-decoration: none;
+}
+
+
+
+.social li{
+	display: inline-block;
+
+
+
+
+}
+.iconsy {
+	display: block;
+	background: url(../images/sprite.png) no-repeat;
+	width: 38px;
+	height: 38px;
+
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+
+}
+.tw {
+	background-position: -38px 0;
+}
+
+.in {
+	background-position: -76px 0;
+}
+
+/* При наведении */
+.fb:hover {
+	background-position: 0 -38px;
+}
+
+.tw:hover {
+	background-position: -38px -38px;
+}
+
+.in:hover {
+	background-position: -76px -38px;
+}
+
+
+
+
+
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+	position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+	cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev ,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+
+}
+
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Six columns side by side */
+.column {
+	float: left;
+	width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+	opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+	opacity: 1;
+}
+
+
+
+
+.accordion {
+	background-color: #e1d7b7;
+	color: #4a3933;
+	cursor: pointer;
+	padding: 13px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+	border-radius: 5px;
+	font-family: 'Montserrat-Bold','Verdana';
+
+}
+
+.active, .accordion:hover {
+	background-color: #a8996b;
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+.faq{
+	margin-bottom: 1%;
+		padding: 0px  20% 0px 20%;
+	
+}
+
+
+
+
+
